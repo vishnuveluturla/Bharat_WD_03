@@ -1,0 +1,188 @@
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        body {
+
+            background-image: url('Bg.jpeg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .fixed-header {
+            position:sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999; 
+        }
+
+        header {
+            background-color: #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            width: 95%;
+        }
+
+        .logo img {
+            margin: o;
+            width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #e50914;
+            color: #fff;
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .featured-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .content-item {
+            margin: 1rem;
+            text-align: center;
+            width: calc(33.33% - 2rem); 
+        }
+
+        .content-item img {
+            max-width: 100%;
+            height: auto;
+            max-height: 200px; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #000;
+            width: 100%;
+        }
+
+        
+        .signin-form {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 5px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .signin-form h2 {
+            margin-bottom: 20px;
+        }
+
+        .signin-form input[type="text"],
+        .signin-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .signin-form input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        
+        .search-button-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .search-button {
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        
+        #signin-button {
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        
+        .search-section {
+            margin: 10px 20px 10px 20px;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-input {
+            width: 60%;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+        }

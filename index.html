@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+    <header class="fixed-header">
+        <div class="logo">
+            <img src="Netflix-logo-red-black-png.png" alt="Netflix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#tvshows">TV Shows</a></li>
+            </ul>
+        </nav>
+        <button id="signin-button">Sign In</button>
+    </header>
+    
+    <section class="hero">
+        
+        <h1>Unlimited movies, TV shows and more</h1>
+        <section class="search-section">
+            <!-- ... (Your existing search section content) ... -->
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </section>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <a href="#" class="cta-button">Try it now</a>
+    </section>
+
+    <section class="featured-content" id="movies">
+        <div class="content-item">
+            <img src="1Baahubali-The-Conclusion.jpg" alt="Movie Content 1">
+            <h2>Baahubali The Conclusion</h2>
+        </div>
+
+        <div class="content-item">
+            <img src="GodFather.jpg" alt="Movie Content 2">
+            <h2>GodFather</h2>
+        </div>
+
+        <div class="content-item">
+            <img src="Macherla Niyojakavargam.jpg" alt="Movie Content 4">
+            <h2>Macherla Niyojakavargam</h2>
+        </div>
+
+        <div class="content-item">
+            <img src="Gunturu Karam.jpg" alt="Movie Content 3">
+            <h2>Guntur Karam</h2>
+        </div>
+
+        
+        <div class="content-item">
+            <img src="RRR.jpg" alt="Movie Content 5">
+            <h2>RRR</h2>
+        </div>
+
+        <div class="content-item">
+            <img src="Oke Oka jivitham.jpg" alt="Movie Content 6">
+            <h2>Oke Oka jivitham</h2>
+        </div>
+    </section>
+
+    <section class="featured-content" id="tvshows">
+        <div class="content-item">
+            <img src="Guppedantha_Manasu.jpg" alt="TV Show Content 1">
+            <h2>Guppedantha Manasu</h2>
+        </div>
+
+        <div class="content-item">
+            <img src="Karthika-Deepam-Serial-Cast.jpg" alt="TV Show Content 2">
+            <h2>Karthika Deepam</h2>
+        </div>
+
+        <div class="content-item">
+            <img src="Sadhana.jpg" alt="TV Show Content 2">
+            <h2>Saadhana</h2>
+        </div>
+    </section>
+
+    <section class="signin-form" id="signin" style="display: none;">
+
+        <h2>Sign In</h2>
+        <form action="#" method="post">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <input type="submit" value="Sign In">
+        </form>
+    </section>
+
+    
+    <footer>
+        
+        <p>&copy; 2023 Netflix Clone [vishnu veluturla]</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
